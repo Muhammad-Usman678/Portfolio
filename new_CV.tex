@@ -1,0 +1,202 @@
+\documentclass[pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{array,tabularx,enumitem}
+\usepackage[hidelinks,breaklinks]{hyperref}
+\usepackage{graphicx}
+
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+\newcommand{\pubitem}[2]{%
+  \noindent\parbox[t]{0.9\textwidth}{#1}\hfill #2\par\vspace{0.4em}
+}
+\usepackage[document]{ragged2e}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\newcommand{\sectiontitle}[1]{%
+  \vspace{4pt}\noindent\textbf{\large #1}%
+  \leavevmode\leaders\hrule height 0.3pt \hfill\kern0pt%
+  \vspace{1pt}\par
+}
+
+\newcommand{\jobtitle}[1]{\noindent\textbf{#1}}
+\newcommand{\companylocation}[2]{\noindent\textbf{#1} \hfill #2\newline}
+\setlist[itemize]{noitemsep,topsep=0pt,leftmargin=15pt}
+
+\begin{document}
+\noindent
+\raisebox{45pt}{%
+\begin{minipage}[t]{0.72\textwidth}
+{\LARGE \bfseries Muhammad Usman}\\[3pt]
+Bruchwiesenanlage 4, 66125, Saarbruecken, Germany \textbar{} +49 174 276 7793 \textbar{}\\
+\href{mailto:usmanchaudhary.eng@gmail.com}{usmanchaudhary.eng@gmail.com} \textbar{}
+\href{https://www.linkedin.com/in/usmanbioinformatician2025/}{LinkedIn} \textbar{}
+\href{https://github.com/Muhammad-Usman678}{GitHub}
+\end{minipage}
+}
+\hfill
+\begin{minipage}[t]{0.23\textwidth}
+\raggedleft
+\includegraphics[width=2.6cm]{image_cv.png}
+\end{minipage}
+
+
+
+
+
+
+
+
+\sectiontitle{Professional Summary}
+Bioinformatician and \textbf{DevOps-oriented Machine Learning Engineer} with expertise building scalable solutions in \textbf{genomics, transcriptomics, and proteomics}. In the final phase of a Master’s degree exploring opportunities at the intersection of biological data analysis, machine learning, and infrastructure. Focused on building reproducible, scalable pipelines that translate complex biological data into insight.
+
+
+
+\sectiontitle{Education}
+
+\textbf{Bioinformatics, M.Sc.} \hfill Oct 2022 -- Present \\
+Saarland University, Germany
+\begin{itemize}
+\item Thesis: \emph{ML-Driven Exploration of NRPS Engineering in \textit{E. coli}}
+\item Focus: Computational Biology, Genomics, NGS, Machine Learning
+\end{itemize}
+
+\textbf{Biomedical Engineering, B.Sc.} \hfill Oct 2018 -- Aug 2022 \\
+University of Engineering and Technology (UET), Lahore, Pakistan
+\begin{itemize}
+\item Graduated with Honors (GPA: 3.72/4.00)
+\item Thesis: \emph{ECG Analysis: Monitoring of Signs \& Symptoms}
+\end{itemize}
+
+
+\sectiontitle{Work Experience}
+
+
+\textbf{AI Safety Research Fellow} \hfill Nov 2025 -- Present \\
+\textbf{Saarland University, Germany}
+\begin{itemize}[nosep, leftmargin=*]
+    \item Developing \textbf{multi-omics ML models} for personalized oncology using fusion and graph-based approaches.
+    \item Assessing \textbf{uncertainty, causality, and robustness} under cohort and distribution shifts.
+    \item Building reproducible \textbf{Snakemake + Docker} pipelines with AI-safety methods for reliable benchmarking.
+\end{itemize}
+
+
+\vspace{0.5em}
+\textbf{Machine Learning \& Bioinformatics Engineer} \hfill Jun 2024 -- Present \\
+\textbf{Myria Biosciences, Switzerland}
+
+\begin{itemize}
+\item Processed and analyzed \textbf{10,000+ genomic and proteomic samples}, reducing pipeline runtime by \textbf{35\%} using workflow managers and HPC clusters.
+\item Benchmarked variant calling pipelines, improving SNP detection sensitivity by \textbf{8\%} against reference datasets.
+\item Designed and automated \textbf{ETL, NGS, and ML pipelines} (\textbf{Python, Pandas, SQL, Docker, CI/CD}), ingesting and validating \textbf{50 GB/week} of multi-omics data with \textbf{\textless{}2\% error rate}.
+\item Built a \textbf{graph-based knowledge system (Neo4j)} integrating \textbf{10,000+ biological entities}, improving cross-domain query performance by \textbf{50\%}.
+\item Delivered \textbf{30+ interactive dashboards and reproducible analytical reports}, version-controlled and containerized with \textbf{Git and Docker}, supporting decisions across \textbf{3 clinical programs}.
+\end{itemize}
+
+
+
+
+
+\vspace{0.5em}
+
+\textbf{Research Assistant} \hfill Oct 2024 -- Jul 2025 \\
+\textbf{Saarland University, Germany}
+
+\begin{itemize}
+\item Applied \textbf{AI-driven CADD methodologies} for biosynthetic pathway optimization and molecule screening.
+\item Integrated synthetic biology with computational chemistry workflows for rapid in-silico experimentation.
+\item Automated ML pipelines using \textbf{Python, PyTorch, and Scikit-learn} on Linux, improving model testing and reproducibility.
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Data Scientist in Drug Bioinformatics} \hfill Jun 2024 -- Dec 2024 \\
+\textbf{Helmholtz Institute (HIPS), Germany}
+\begin{itemize}
+\item Integrated NGS and \textbf{LC-MS/MS proteomics} data, enabling discovery of \textbf{15 novel BGCs}.
+\item Developed \textbf{machine learning models} improving expression-efficiency prediction accuracy by \textbf{22\%}.
+\item Applied \textbf{graph-based methods} for pathway discovery, with \textbf{experimentally validated predictions}.
+\item Built version-controlled, reproducible \textbf{Snakemake pipelines} adopted by multiple research groups, saving \textbf{40+ hours/month}.
+\end{itemize}
+
+
+\vspace{0.5em}
+
+\textbf{Research Assistant} \hfill Dec 2022 -- Sep 2024 \\
+\textbf{Korean Institute of Science \& Technology (KIST) Europe, Germany}
+
+\begin{itemize}
+\item Supported sequencing-driven synthetic biology projects, validating \textbf{100+ cloning experiments}.
+\item Led student training and workflow standardization, reducing onboarding time by \textbf{30\%}.
+\item Executed and analyzed \textbf{ELISA, cloning workflows, and phage–host interaction} studies to support bacteriophage engineering.
+\end{itemize}
+
+\sectiontitle{Volunteering}
+
+\textbf{Research Mentor, Computational Biology} \hfill Sep 2022 -- Present \\
+\textbf{UET Lahore, Pakistan}
+\begin{itemize}
+\item Mentored undergraduate research projects applying \textbf{machine learning and deep learning} to biological and biomedical data (EEG, genomic, physiological).
+\item Guided students in research design, data preprocessing, feature engineering, and model evaluation, strengthening scientific rigor and outcomes.
+\item Provided hands-on technical guidance in \textbf{Python, scikit-learn, PyTorch}, emphasizing reproducible and research-grade coding practices.
+\end{itemize}
+
+\sectiontitle{Projects \& Certifications}
+\begin{itemize}[leftmargin=*, nosep, itemsep=4pt]
+\item \textbf{GeneCoViz}, Co-expression network visualization (Plotly)
+\item \textbf{NeuroVision Explorer}, MRI analysis using CNNs/transformers
+\item \textbf{Heart Disease Prediction}, \textbf{92\% accuracy} (RF/XGBoost)
+\item \textbf{Neo4j Knowledge Graph}, 10k+ biological entities
+\item \textbf{FastAPI CI/CD Reference}, Automated Docker deployment
+\item Neo4j Certified Professional; Graph Data Science Certified
+\item AWS Cloud Practitioner Essentials
+\end{itemize}
+
+\sectiontitle{Publications}
+\pubitem{Reprogramming Filamentous FD Viruses to Capture Copper Ions. \textit{ChemBioChem}. DOI: \href{https://doi.org/10.1002/cbic.202400237}{10.1002/cbic.202400237}}{2024}
+\pubitem{Bacteriophage Engineering for Improved Copper Ion Binding. \textit{Macromolecular Bioscience}. DOI: \href{https://doi.org/10.1002/mabi.202300354}{10.1002/mabi.202300354}}{2023}
+\pubitem{Electrocardiogram Data Visualization and Dimensionality Reduction. \href{https://fke.utm.my/icbhs2022/wp-content/uploads/sites/10/2022/10/JOINT-CONFERENCE-BOOK_compressed.pdf}{\textit{ICBHS 2022}}}{2022}
+\pubitem{Brain Tumor Segmentation and Detection on MRI Images. \href{https://fke.utm.my/icbhs2022/wp-content/uploads/sites/10/2022/10/JOINT-CONFERENCE-BOOK_compressed.pdf}{\textit{ICBHS 2022}}}{2022}
+
+\sectiontitle{Awards \& Hackathons}
+
+\noindent\textbf{Winner, Health Hack Saar} \hfill Oct 2025 \\
+\textit{Saarbrücken, Germany} \\
+\textbf{MEDPlex: Bridging the Gender Data Gap in Pediatrics}
+\begin{itemize}
+    \item Built a real-time \textbf{evidence-based pediatric medication recommendation system} addressing gender bias in dosing.
+    \item Delivered a full working prototype within 48 hours with potential to improve medication safety and reduce dosing errors.
+\end{itemize}
+
+\noindent\textbf{Finalist, ODDO BHF Equity Research Hackathon} \hfill Nov 2025 \\
+\textit{Paris, France} \\
+\textbf{Enhancing Equity Research Client Engagement}
+\begin{itemize}[nosep, leftmargin=*]
+    \item Selected among top teams and invited to pitch at \textbf{ODDO BHF Headquarters} in Paris.
+    \item Built an AI-augmented platform improving analyst–client engagement through availability signalling and automated follow-ups.
+\end{itemize}
+
+\noindent\textbf{Participant, Defensive Acceleration Hackathon} \hfill Nov 2025 \\
+\textit{Global} \\
+\textbf{BioCast AI: Global Disease Outbreak Forecasting}
+\begin{itemize}[nosep, leftmargin=*]
+    \item Developed a hybrid \textbf{LSTM + XGBoost} epidemiological forecasting pipeline with PCA/clustering analytics and outbreak risk prediction.
+\end{itemize}
+
+
+
+
+
+\sectiontitle{Skills}
+
+\textbf{NGS \& Bioinformatics:} WGS, WES, RNA-seq (bulk \& single-cell), methylome, variant calling, annotation, Bioconductor \\
+\textbf{ML \& Data Science:} Scikit-learn, PyTorch, PCA/UMAP/t-SNE, clustering, Random Forest, SVM, XGBoost, SHAP, GNNExplainer, graph ML \\
+\textbf{DevOps \& Infrastructure:} Docker, Git, Bash, Linux Server Management, CI/CD, Workflow Automation, Cloud Deployment \\
+\textbf{Pipelines \& Tools:} Snakemake, Nextflow, BioPython, Pandas, NumPy, Jupyter, Flask \\
+\textbf{Data Engineering \& Databases:} SQL, ETL/ELT, API pipelines, Neo4j knowledge graphs, data modeling \\
+\textbf{Visualization:} Plotly, R Shiny, Jupyter Dashboards, RMarkdown, interactive reporting \\
+\textbf{Languages:} English, German \\
+
+
+
+
+\end{document}
