@@ -4,7 +4,7 @@ Professional portfolio website showcasing my work as a Bioinformatician and DevO
 
 ## 🌐 Live Website
 
-Visit my portfolio: [https://muhammad-usman678.github.io/portfolio_muhammad_usman/](https://muhammad-usman678.github.io/portfolio_muhammad_usman/)
+Visit my portfolio: [https://muhammad-usman678.github.io/Portfolio/])
 
 ## 📋 About
 
@@ -32,3 +32,4 @@ This portfolio highlights my expertise in:
 ## 📄 License
 
 © 2025 Muhammad Usman. All rights reserved.
+
